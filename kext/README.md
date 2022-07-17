@@ -2,6 +2,16 @@
 
 ​	tips：需要关闭SIP
 
+
+关闭SIP操作：
+* 重启电脑
+* 进入恢复模式（recovery模式）
+* 进入终端  -（不点击重装系统等按钮，直接进入终端）
+* csrutil status 查看SIP状态 一般显示为enable
+* csrutil disable 关闭SIP
+* csrutil 查看SIP状态是否为disable 关闭
+
+
 ```shell
 sudo su
 ```
